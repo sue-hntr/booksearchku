@@ -64,7 +64,7 @@ class Search extends Component {
             saveBook={this.saveBook}
             key={result.id}
             title={result.volumeInfo.title}
-            author={result.volumeInfo.authors[0]}
+            author={result.volumeInfo.authors}
             description={result.volumeInfo.description}
             />
             
